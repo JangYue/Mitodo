@@ -1,0 +1,20 @@
+
+.todo_header{
+    text-align: center;
+    
+}
+.todo_header h1{
+    font-size: 30px;
+}
+.todo_search{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.todo_add{
+    text-align: right;
+    margin-top: -15px;
+    margin-bottom: 20px;
+}
+.todo_add span{
+    font-size: 16px;
+}

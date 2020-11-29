@@ -1,0 +1,63 @@
+.edit_wrap{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top:0;
+    left:0;
+    overflow: hidden;
+    z-index: 10;
+    display: none;
+}
+.bianJi{
+    width: 30vw;
+    border: 4px solid #fff;
+    position: fixed;
+    top:23vh;
+    left:50%;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 10px;
+    background: #f4bf08;
+    transform:translateX(-50%);
+    z-index:10;
+    display: flex;
+    flex-direction: column;
+}
+.mask{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: rgb(186,190,195,0.5); 
+    z-index: 9;
+
+}
+.bianTextArea .ant-input::placeholder{
+    color: #5a5853;
+    font-size: 10px;
+}
+
+.btn{
+    width: 50px;
+    padding: 0px;
+    font-size: 12px;
+    background-color: #f4bf08;
+    color: #fff;
+    border:3px solid #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    align-self: flex-end;
+    margin:20px 5px 5px 0;
+   
+}
+.btn:hover{
+    background-color: #fff;
+    color: #f4bf08;
+    border:3px solid  #f4bf08;
+}
+.btn:link{
+    background-color: #fff;
+    color: #f4bf08;
+    border:3px solid  #f4bf08;
+}

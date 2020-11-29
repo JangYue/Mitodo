@@ -1,0 +1,42 @@
+
+.todo_item{
+    text-align: left;
+    margin-bottom: 10px;
+    transition: 0s all ease-in;
+}
+.todo_item_wrap{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    padding-left:10px;
+    line-height: 60px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.item_content{
+    font-size: 14px;
+    line-height: 14px;
+    display: inline-block;
+    margin-left: 10px;
+    width: 80%;
+    overflow: hidden;
+    height: 15px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-right: 20px;
+}    
+/*点击checkbox 改变checkbox样式*/
+.changeCheckbox .ant-checkbox-inner{
+    background-color: #b7b8b9;
+    border: 1px solid #b7b8b9;
+    border: none;
+}
+/*点击checkbox后 span加下划线*/
+.check_line{
+    text-decoration: line-through;
+    color: #b7b8b9;
+    
+    font-size: 14px;
+    line-height: 14px;
+   
+}
